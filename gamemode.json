@@ -1,7 +1,7 @@
 {
   "ApiVersion": 2,
-  "Name": "PEACE",
-  "Description": "Мирный режим",
+  "Name": "Squid-game",
+  "Description": "Игра кабачком",
   "StartClientVersion": 532,
   "MapLists": [
     {
@@ -22,11 +22,6 @@
       {
         "Name": "LoosenBlocks",
         "DisplayName": "GmParams/LoosenBlocks"
-      },
-      {
-        "Name": "RedTeam",
-        "DisplayName": "Teams/Red",
-        "Default": true
       },
       {
         "Name": "BlueTeam",
