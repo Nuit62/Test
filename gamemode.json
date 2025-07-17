@@ -1,7 +1,7 @@
 {
   "ApiVersion": 2,
-  "Name": "Squid-game",
-  "Description": "Игра кабачком",
+  "Name": "Битва строителей",
+  "Description": "Постройте самую лучшую постройку",
   "StartClientVersion": 532,
   "MapLists": [
     {
