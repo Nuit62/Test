@@ -1,6 +1,9 @@
 import * as room from 'pixel_combats/room';
 import * as teams from './default_teams.js';
 
+const player = Room.Players.GetByRoomId(123);
+const roomId = player.IdInRoom;
+
 player.Properties.Get("Number").Value = player.IdInRoom; 
 Teams.OnRequestJoinTeam.Add((player, team) => {
     player.Properties.Get("Number").Value = player.IdInRoom;
