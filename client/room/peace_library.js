@@ -7,6 +7,11 @@ Teams.OnRequestJoinTeam.Add((player, team) => {
     team.Add(player);
 });
 
+LeaderBoard.PlayerLeaderBoardValues = [
+        new DisplayValueHeader(KILLS_PROP_NAME, "Statistics/Kills", "Statistics/KillsShort"),
+DisplayValueHeader(KILLS_PROP_NAME, "Statistics/Kills", "Statistics/KillsShort"),
+];
+
 Damage.FriendlyFire = true;
 BreackGraph.OnlyPlayerBlocksDmg = false;
 BreackGraph.WeakBlocks = false;
