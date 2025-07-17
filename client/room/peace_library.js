@@ -8,8 +8,7 @@ Teams.OnRequestJoinTeam.Add((player, team) => {
 });
 
 LeaderBoard.PlayerLeaderBoardValues = [
-        new DisplayValueHeader(KILLS_PROP_NAME, "Statistics/Kills", "Statistics/KillsShort"),
-DisplayValueHeader(KILLS_PROP_NAME, "Statistics/Kills", "Statistics/KillsShort"),
+    { Value: "RoomId", DisplayName: Номер игрока" }
 ];
 
 Damage.FriendlyFire = true;
